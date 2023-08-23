@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.containar{
+height: 1000px;
+background-color: gray;
+margin-top: 50px;
+margin-left: 50px;
+position: relative;
+
+}
+
+.item{
+    background-color: green;
+    border:3px solid brown;
+}
+
+
+.relative{
+   
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absulate{
+    position: absolute;
+    bottom: 0px;
+}
+
+.fixed{
+    position: fixed;
+    left: 100px;
+    top: 100px;
+
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+
+.footer{
+position: absolute;
+text-align: center;
+width: 100%;
+background-color: green;
+margin-left: 50px;
+margin-top: 10px;
+margin-right: 0px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="containar">
+    <span class="item relative">
+    Relative Element
+    </span>
+
+    <span class="item absulate">
+    Absulate Element
+    </span>
+
+    <span class="item fixed">
+    Fixed Element
+    </span>
+
+    <span class="item sticky">
+    Sticky Element
+    </span>
+
+    </div>
+    <div class="footer">
+        <p>This is my website</p>
+    </div>
+</body>
+</html>
+
